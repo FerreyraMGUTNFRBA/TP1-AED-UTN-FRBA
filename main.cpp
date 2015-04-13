@@ -27,6 +27,10 @@ int main(){
     double num5 = 38.99;
     double num6 = 21.65;
 
+    bool arg1 = true;
+    bool arg2 = false;
+    bool res;
+
 cout << "===============================================================================\n" << endl;
 cout << "|                          Trabajo Practico No 1 AED                           |" << endl;
 cout << "|                 \"Tipos de Datos y sus Operaciones Basicas\"                   |" << endl;
@@ -54,9 +58,22 @@ cout << "_________________\n" << endl;
 cout << "Suma (num5 + num6): " << num5 + num6 << endl;
 cout << "Resta (num5 - num6): " << num5 - num6 << endl;
 cout << "Multiplicacion (num5 * num6): " << num5 * num6 << endl;
-cout << "Division (num5 / num6): " << num5 / num6 << endl;
+cout << "Division (num5 / num6): " << num5 / num6 << "\n" << endl;
 // No se puede obtener un resto de una división de datos del tipo Double.
 
+// Tipo de datos Bool.
+
+cout << "Tipo de dato: Boolean (1 = true; 0 = false)" << endl;
+cout << "_________________\n" << endl;
+
+res = arg1 == arg2;
+cout << "Igualdad (arg1 == arg2): " << res << endl;
+res = arg1 != arg2;
+cout << "Desigualdad (arg1 != arg2): " << res << endl;
+res = arg1 and arg2;
+cout << "Conjuncion (arg1 ^ arg2): " << res << endl;
+res = arg1 or arg2;
+cout << "Exlcusion (arg1 v arg2): " << res << endl;
 
 }
 
