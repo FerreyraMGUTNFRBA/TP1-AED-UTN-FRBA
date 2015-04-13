@@ -56,5 +56,18 @@ cout << "Resta (num3 - num4): " << num3 - num4 << endl;
 cout << "Multiplicacion (num3 * num4): " << num3 * num4 << endl;
 cout << "Division (num3 / num4): " << num3 / num4 << endl;
 // No se puede obtener un resto de una división de datos del tipo Float.
+
+// Tipo de datos Double
+
+cout << "Tipo de dato: Double" << endl;
+cout << "_________________\n" << endl;
+
+cout << "Suma (num5 + num6): " << num5 + num6 << endl;
+cout << "Resta (num5 - num6): " << num5 - num6 << endl;
+cout << "Multiplicacion (num5 * num6): " << num5 * num6 << endl;
+cout << "Division (num5 / num6): " << num5 / num6 << endl;
+// No se puede obtener un resto de una división de datos del tipo Double.
+
+
 }
 
