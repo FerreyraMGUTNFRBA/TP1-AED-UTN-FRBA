@@ -46,17 +46,6 @@ cout << "Multiplicacion (num1 * num2): " << num1 * num2 << endl;
 cout << "Division (num1 / num2): " << num1 / num2 << endl;
 cout << "Resto de Division Entera (num1 % num2): " << num1 % num2 << "\n" << endl;
 
-// Tipo de datos Float
-
-cout << "Tipo de dato: Float" << endl;
-cout << "_________________\n" << endl;
-
-cout << "Suma (num3 + num4): " << num3 + num4 << endl;
-cout << "Resta (num3 - num4): " << num3 - num4 << endl;
-cout << "Multiplicacion (num3 * num4): " << num3 * num4 << endl;
-cout << "Division (num3 / num4): " << num3 / num4 << endl;
-// No se puede obtener un resto de una división de datos del tipo Float.
-
 // Tipo de datos Double
 
 cout << "Tipo de dato: Double" << endl;
