@@ -1,0 +1,48 @@
+===============================================================================
+
+|                          Trabajo Practico No 1 AED                           |
+
+|                 "Tipos de Datos y sus Operaciones Basicas"                   |
+
+|           Alumno: Ferreyra, Maximiliano Gaston || Legajo: 155911-4           |
+
+===============================================================================
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+Tipo de dato: Int
+_________________
+
+Suma (num1 + num2): 41
+Resta (num1 - num2): 33
+Multiplicacion (num1 * num2): 148
+Division (num1 / num2): 9
+Resto de Division Entera (num1 % num2): 1
+
+Tipo de dato: Double
+_________________
+
+Suma (num5 + num6): 60.64
+Resta (num5 - num6): 17.34
+Multiplicacion (num5 * num6): 844.134
+Division (num5 / num6): 1.80092
+
+Tipo de dato: Boolean (1 = true; 0 = false)
+_________________
+
+Igualdad (arg1 == arg2): 0
+Desigualdad (arg1 != arg2): 1
+Conjuncion (arg1 ^ arg2): 0
+Exclusion (arg1 v arg2): 1
+
+Tipo de dato: String
+_________________
+
+Comparacion (Valor != 0 Diferente, Valor == 0 Iguales):
+Son diferentes
+Concatenacion: Hola Mundo
+Longitud de Caracteres ("Hola"): 4
+Verificar si variable tipo string esta vacia:
+No Vacia
+
+Process returned 0 (0x0)   execution time : 0.125 s
+Press any key to continue.
