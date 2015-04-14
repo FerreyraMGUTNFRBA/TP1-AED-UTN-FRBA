@@ -9,6 +9,7 @@
 */
 
 #include <iostream>
+#include <string>
 
 using namespace std;
 
@@ -30,6 +31,8 @@ int main(){
     bool arg1 = true;
     bool arg2 = false;
     bool res;
+
+    string a = "Hola", b = "Mundo", c;
 
 cout << "===============================================================================\n" << endl;
 cout << "|                          Trabajo Practico No 1 AED                           |" << endl;
@@ -73,7 +76,30 @@ cout << "Desigualdad (arg1 != arg2): " << res << endl;
 res = arg1 and arg2;
 cout << "Conjuncion (arg1 ^ arg2): " << res << endl;
 res = arg1 or arg2;
-cout << "Exlcusion (arg1 v arg2): " << res << endl;
+cout << "Exclusion (arg1 v arg2): " << res << "\n" << endl;
 
+cout << "Tipo de dato: String" << endl;
+cout << "_________________\n" << endl;
+
+cout << "Comparacion (Valor != 0 Diferente, Valor == 0 Iguales): " << endl;
+    if(a.compare(b) == 0)
+    {
+        cout << "Son iguales" << endl;
+    }else
+    {
+        cout << "Son diferentes" << endl;
+    }
+
+cout << "Concatenacion: " << a + " " + b << endl;
+
+cout << "Longitud de Caracteres (\"Hola\"): " << a.size() << endl;
+
+cout << "Verificar si variable tipo string esta vacia: " << endl;
+
+    if(b.empty() == true){
+        cout << "Vacia" << endl;
+    }else{
+        cout << "No Vacia" << endl;
+    }
 }
 
